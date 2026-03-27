@@ -1,0 +1,109 @@
+/* ===== MOBILE FIRST (default styles for smallest screens) ===== */
+html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; /* optional: smooth scroll */
+    overflow-x: hidden;      /* prevent horizontal overflow */
+}
+
+.container-hot {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.row-hot {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+    overflow-x: auto; /* <-- This enables horizontal scrolling */
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+     height: 300px;
+}
+
+.row-hot::-webkit-scrollbar {
+    display: none;
+}
+
+.col-hot {
+    flex: 0 0 calc(50% - 5px); /* On small screens, two columns per row */
+    scroll-snap-align: start;
+    margin-bottom: 20px;
+   
+}
+
+.card-hot {
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    width: 170px; /* Adjust as needed for smaller screens */
+    padding-top: 20px; /* This remains as per your request */
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    margin-bottom: 0px;
+  
+   
+}
+
+.card-img-top {
+    width: 100%;
+    height: 130px;       /* Fixed image height */
+    object-fit: cover;   /* Ensures consistent crop without stretching */
+    display: block;
+    margin-top: 0; 
+    height: 180px;      /* Remove offset to align evenly */
+}
+
+
+.card-body-hot {
+    padding-top: 10px;
+    background-color: #343333;
+    height: 90px;
+    display: flex; /* Added for vertical centering of content */
+    flex-direction: column; /* Added for vertical centering of content */
+    justify-content: center; /* Added for vertical centering of content */
+    align-items: center; /* Added for horizontal centering of content */
+}
+
+.card-title-hot {
+    margin: 0 0 4px 0;
+    font-size: 15px;
+    color: white;
+    white-space: normal; /* Allows text to wrap */
+    overflow: visible;    /* Ensures content is not clipped */
+    text-overflow: clip; /* No ellipsis */
+    text-align: center;
+    padding: 0 5px; /* Added for better text spacing */
+    height: auto;
+}
+
+.card-text-hot {
+    margin: 0;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    background-color: black;
+    margin-top: 10px;
+    padding: 2px 10px; /* Adjusted padding for better look */
+    border-radius: 20%;
+    width: fit-content; /* Adjust width to fit content */
+}
+.huni {
+    width: 300px;
+    padding: 15px 25px;
+    background-color: #343333;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+    border-image: linear-gradient(45deg, #00f2ff, #007cf0) 1;
+    box-shadow: 0 0 10px #00f2ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left:40px;
+}

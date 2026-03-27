@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: black;
+  height: 90px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+/* Logo image size */
+.logo img {
+  height: 90px;
+}
+
+/* Site name with neon glow effect */
+.site-name {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #0088ff;
+  border-bottom: 1px solid white;
+  flex: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: center;
+    gap: 0;
+  }
+
+  .logo {
+    position: absolute;
+    left: 15px;
+  }
+
+  .site-name {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: none;
+  }
+}
