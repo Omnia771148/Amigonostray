@@ -7,90 +7,54 @@ const m6 = "/images/ms6.jpg";
 const m7 = "/images/ms6.jpg";
 const m8 = "/images/ms8.jpg";
 
-const t1 = "/images/th1.jpg";
-const t2 = "/images/th2.jpg";
-const t3 = "/images/th3.jpg";
-const t4 = "/images/th4.jpg";
+
 export const Milk=[
-    //Milk Shakes
-    {
-        Name : "Vanilla",
-        price: "₹90",
-        pic: m1
-
-    },
-    {
-        Name : "Chocolate",
-        price: "₹100",
-        pic: m2
-
-    },
-    {
-        Name : "Strawberry",
-        price: "₹100",
-        pic:m3
-
-    },
-    {
-        Name : "Mango",
-        price: "₹100",
-        pic:m4
-
-    },
-    {
-        Name : "Rich Chocolate",
-        price: "₹120",
-        pic:m5
-
-    },
-    {
-        Name : " Butter Scotch",
-        price: "₹100",
-        pic:m6
-
-    },
-     {
-        Name : "Pista Green",
-        price: "₹100",
-        pic:m7
-
-    },
-    {
-        Name : "Cold Coffee",
-        price: "₹100",
-        pic:m8
-
-    },
-    
-]
-
-export const Thick= [
-    //Thick Shakes
-    {
-        Name : "Orio Thick Shake",
-        price: "₹150",
-        pic:t1
-
-    },
-     {
-        Name : "Dry Nut Thick Shake",
-        price: "₹180",
-        pic:t2
-
-    },
-     {
-        Name : "Kit-Kat Thick Shake ",
-        price: "₹160",
-        pic:t3
-
-    },
-     {
-        Name : "Chocolate Thick Shake",
-        price: "₹160",
-        pic:t4
-
-    },
-    
-
-
+{
+    id: 1,
+    Name:"Butterscotch Milkshake",
+    price:"₹119",
+    pic:m1
+},
+{
+    id: 2,
+    Name:"Oreo Milkshake",
+    price:"₹139",
+    pic:m2
+},
+{
+    id: 3,
+    Name:"KitKat Milkshake",
+    price:"₹139",
+    pic:m3
+},
+{
+    id: 4,
+    Name:"Belgium Chocolate Milkshake",
+    price:"₹149",
+    pic:m4
+},
+{
+    id: 5,
+    Name:"Blueberry Milkshake",
+    price:"₹149",
+    pic:m5
+},
+{
+    id: 6,
+    Name:"Strawberry Milkshake",
+    price:"₹149",
+    pic:m6
+},
+{
+    id: 7,
+    Name:"Mango Milkshake",
+    price:"₹149",
+    pic:m7
+},
+{
+    id: 8,
+    Name:"Dry Fruit & Nut Milkshake",
+    price:"₹179",
+    pic:m8
+}
 ]

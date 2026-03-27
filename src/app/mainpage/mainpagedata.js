@@ -12,70 +12,101 @@ const md11 = "/images/md11.jpg";
 
 export const maindata = [
   {
-    Name: "FAMILY PIZZA",
+    Name: "WAFFLES",
+    pic: md8,
+    button: "Details",
+    route: "/wafils"
+},
+  {
+    Name: "Jellies",
     pic: md9,
     button: "Details",
-    route: "/familypizza"
+    route: "/Jellies"
 },
+
+
 {
-    Name: "SPECIAL PIZZA",
+    Name: "Malais",
     pic: md10,
     button: "Details",
-    route: "/specialpizza"
+    route: "/malais"
 },
+
+
 {
-    Name: "PIZZA",
+    Name: "Moctails",
     pic: md1,
     button: "Details",
-    route: "/pizza"
+    route: "/moctails"
   },
+
   {
-    Name: "ICE CREAMS",
-    pic: md2,
-    button: "Details",
-    route: "/importspecial"
-  },
-  {
-    Name: "MILK & THICK SHAKES",
+    Name: "MILK SHAKES",
     pic: md3,
     button: "Details",
     route: "/milkshake"
   },
+
+
+
+
   {
-    Name: "HOT DOGS & QUICK BITES",
+    Name: "Cold Coffey",
+    pic: md2,
+    button: "Details",
+    route: "/coldcoffey"
+  },
+    {
+    Name: "MOUSSE",
     pic: md4,
     button: "Details",
-    route: "/hotdogs"
+    route: "/mousse"
   },
   {
-    Name: "BURGER'S & FRENCH FRIES",
+    Name: "Ramen",
     pic: md5,
     button: "Details",
-    route: "/french"
+    route: "/ramen"
   },
-  {
-    Name: "FRANKIES & SANDWITCH",
+{
+    Name: "PASTA",
     pic: md6,
     button: "Details",
-    route: "/sand"
+    route: "/pasta"
   },
   {
-    Name: "TACO'S & LAVA CAKES'S",
+    Name: "Amigo's Special",
     pic: md7,
     button: "Details",
-    route: "/toco"
+    route: "/amigospecial"
   },
   {
-    Name: "MOJITO'S & SODA'S",
-    pic: md8,
-    button: "Details",
-    route: "/mojosoda"
-},
-{
-    Name: "EGG ITEMS & MOMO'S",
+    Name: "Pizzas",
     pic: md11,
     button: "Details",
-    route: "/egg"
+    route: "/pizzas"
+},
+
+
+ {
+    Name: "Amigo Bites",
+    pic: md11,
+    button: "Details",
+    route: "/amigobites"
+},
+
+ {
+    Name: "Burger",
+    pic: md11,
+    button: "Details",
+    route: "/burger"
+},
+
+ {
+    Name: "Momos",
+    pic: md11,
+    button: "Details",
+    route: "/momos"
 },
 
 ];

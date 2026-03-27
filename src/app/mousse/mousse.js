@@ -1,31 +1,34 @@
-import { Milk, Thick } from "./milkshakedata"; 
-import { Universal } from "../display"; 
-import { bgImage } from '../back'; 
-import "../import.css";
 
-export function Dis1() {
+import { mousse } from "./moussedata";
+import { Universal } from "../display"; 
+import { bgImage } from "../back"; 
+import "../import.css"; 
+
+export function Dis9() {
     return (
          <div
               style={{
                 backgroundImage: `url(${bgImage})`, 
                 backgroundSize: 'cover',
                 minHeight: '100vh',
-               
-              }}
-            ><br></br>
              
-        <h1 className="huni">MILK SHAKES </h1>
+              }}
+            >
+        <div><br></br>
+        <h1 className="huni">MOUSSE</h1>
                             <div className="container-hot">
                                         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
-                                            {Milk.map((item, index) => (
+                                            {mousse.map((item, index) => (
                                                 <div className="col-hot" key={index}>
                                                     <Universal Name={item.Name} price={item.price} pic={item.pic} />
                                                 </div>
                                             ))}
                                         </div>
-                                
-             </div>
+                                    </div>
+       
         </div>
+        </div>
+        
         
     );
 }
