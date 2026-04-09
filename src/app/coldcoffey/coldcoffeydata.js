@@ -1,8 +1,8 @@
-const pi1 = "/images/pi1.jpg";
-const pi2 = "/images/pi2.jpg";
-const pi3 = "/images/pi3.jpg";
-const pi4 = "/images/pi4.jpg";
-const pi5 = "/images/pi5.jpg";
+const pi1 = "/meanue/NitroColdCoffe.jpeg";
+const pi2 = "/meanue/ClassicIcedCoffe.jpeg";
+const pi3 = "/meanue/FoamyCreamIcedCoffe.jpeg";
+const pi4 = "/meanue/VanillaFoamIcedCoffe.jpeg";
+const pi5 = "/meanue/SaltedCaramelIcedCoffe.jpeg";
 
 
 export const coldcoffey = [

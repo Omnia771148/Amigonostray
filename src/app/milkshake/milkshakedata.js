@@ -1,11 +1,11 @@
-const m1 = "/images/ms1.jpg";
-const m2 = "/images/ms2.jpg";
-const m3 = "/images/ms3.jpg";
-const m4 = "/images/ms4.jpg";
-const m5 = "/images/ms5.jpg";
-const m6 = "/images/ms6.jpg";
-const m7 = "/images/ms6.jpg";
-const m8 = "/images/ms8.jpg";
+const m1 = "/meanue/ButterscotchMilkshak.jpeg";
+const m2 = "/meanue/Oreomilkshak.jpeg";
+const m3 = "/meanue/KitKatmilkshak.jpeg";
+const m4 = "/meanue/ms4.jpg";
+const m5 = "/meanue/Blueberrymilkshak.jpeg";
+const m6 = "/meanue/Strawberrymilkshak.jpeg";
+const m7 = "/meanue/Mangomilkshak.jpeg";
+const m8 = "/meanue/DryFruitNutmilkshak.jpeg";
 
 
 export const Milk=[
